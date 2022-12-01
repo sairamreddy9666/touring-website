@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: gray;
+    margin: 10px;
+    
+}
+button{
+    background-color: gray;
+    padding: 8px 18px;
+    margin: 15px;
+    color: whitesmoke;
+    border: none;
+}
+header h1{
+    font-size: 50px;
+    background: linear-gradient(45deg, teal, green);
+    padding: 25px;
+}
+nav{
+    background: rgb(140, 208, 210);
+    padding: 7px;
+}
+nav a{
+    padding: 5px 25px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color: whitesmoke;
+}
+.home-section{
+    margin: 100px;
+}
+.places-section div img{
+    width: 400px;
+    height: 600px;
+}
+.package-section h1{
+    padding-top: 100px;
+}
+.package-section figure{
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+.package-section figure img{
+    width: 100%;
+}
+.package-section figure figcaption{
+    font-size: 30px;
+}
+.package-section figure p{
+    font-size: 18px;
+}
+.package-section p{
+    padding-bottom: 20px;
+}
+.main-footer{
+    background-color: gray;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    position: sticky;
+}
+body{
+    min-height: 100vh;
+}
